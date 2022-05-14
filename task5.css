@@ -1,0 +1,2411 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    background-color: blue;
+    color:white;
+    font-size:30px;
+    text-align: center;
+    position: absolute;
+    margin-left: 400px;
+    margin-bottom: 1000px;
+}
+body{
+    background-color: lightgray;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+   justify-content:space-around;
+   
+}
+.header1{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+   justify-content:space-around;
+   background-color: black;
+   color:white;
+
+}
+.logo{
+    text-align: centre;
+    margin-top:25px;
+    width:40%;
+    
+    
+}
+.logo1{
+    text-align: centre;
+    margin-top:25px;
+    width:40%;
+    color: white;
+
+}
+.list{
+    width:30%;
+    border-right: 1px solid black;
+}
+.list1{
+    width:30%;
+    justify-content: space-around;
+    
+    margin-right: 300px;
+    color:white;
+    background-color: black;
+    
+   
+
+}
+
+.list1 ul li{
+    margin-right: 50px;
+}
+ ul{
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: centre;
+    align-items: centre;
+    padding: 15px;
+   
+}
+ ul li{
+    margin-right:20px;
+}
+.Road-assistance{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    justify-content: center;
+    align-items: center;
+    margin-right:20px;
+    
+
+}
+.call{
+    width:10%;
+    background-color:green;
+    border:3px solid green;
+    border-radius:100px;
+    padding:15px;
+    height:34px;
+    width:34px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.assist{
+    width:20%;
+}
+
+.service-box{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    background-color:white;
+    padding-top:50px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+    
+}
+.service-box h4{
+    font-size:65px;
+    font-weight:bold;
+    font-family:'manrope';
+    
+}
+.service-box h6{
+    font-size: 15px;
+    font-weight:700px;
+    font-family:'manrope';
+    line-height: 5px;
+}
+.service-box p{
+    font-size:10px;
+    color:black;
+}
+.recommendation{
+    width:50%;
+   text-align: center;
+
+}
+.service-image{
+    width:50%;
+    align-items: center;
+   
+}
+.service-image img{
+    height:500px;
+}
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 180px;
+    border:1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    padding:15px;
+    height:40px;
+    width:180px;
+    background-color:white;
+}
+.twenty-four{
+    border:1px solid green;
+    border-radius:70px;
+    width:34px;
+    height:34px;
+    text-align: center;
+    align-items: center;
+    padding:15px;
+    background-color: green;
+    color:white;
+    font-size:20px;
+}
+.quick-service{
+    text-align: center;
+    margin-left: 10px;
+}
+.ratings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 750px;
+    border:1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    padding:15px;
+    height:40px;
+    width:200px;
+    background-color:white;
+    margin-top: 350px;
+
+}
+.star ul {
+    list-style: none;
+    display:flex;
+
+    
+
+}
+.star ul li{
+    margin-right: 2px;
+}
+
+
+
+.serious-services{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+.car-services{
+    width:40%;
+    
+
+}
+.quote-box{
+    width:40%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.quote-box p{
+    font-size:50px;
+    font-family:'manrope';
+    font-weight: bold;
+}
+.quote{
+    font-size:30px;
+    font-family:'manrope';
+    font-weight: bold;
+    padding:12px;
+    text-align: center;
+    color:white;
+    background-color:orangered;
+    border:1px solid orangered;
+    border-radius: 50px;
+    height:45px;
+    width:20%;
+    position:absolute;
+    
+
+}
+ input[type="text"],input[type="tel"]{
+    width:200px;
+    padding:10px;
+    margin-bottom: 1px;
+
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.know{
+    margin-right:15px;
+}
+.quote-box{
+    margin-top: 30px;
+}
+
+.car-services h4{
+    font-size:50px;
+    font-family:'manrope';
+    font-weight: bold;
+}
+.convenient{
+    display:flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.expert{
+    margin-right:25px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.mechanics p{
+    font-size:30px;
+    font-family:'manrope';
+    line-height:20px;
+
+}
+
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    min-height:100vh;
+    box-shadow: inset;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+    
+    
+    
+}
+.flex-container .process-box{
+    width:30%;
+    margin-right:200px;
+    align-items: center;
+    
+    
+    
+}
+.flex-container .instruction-box{
+    width:40%;
+    margin-right:100px;
+    align-items: center;
+    
+    
+}
+.box-2{
+    display:flex;
+    flex-direction: row;
+}
+#ball{
+    margin-top:30px;
+}
+#ball p{
+    transform: rotate(-90deg);
+    margin-top: 40px;
+}
+.relative{
+    color:black;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 50px;
+}
+.relative-2 p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+
+
+}
+.relative-2{
+    margin-left: 10px;
+}
+
+.flex-container2{
+   /* display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    min-height:100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:200px;
+    background-color:lightgray;*/
+    height: 100vh;
+
+}
+.flex-container2{
+    background-color: lightgrey;
+    justify-content: center;
+    width:100%;
+}
+.flex-container2 .offer{
+    width: 100%;
+    
+    text-align: center;
+
+
+} .icons{
+    
+    align-items: center;
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    flex-wrap: wrap;
+    background-color:lightgray;
+    padding-right: 30px;
+    overflow:hidden;
+    /*min-height: 100vh;*/
+
+
+
+}
+
+
+/*.icons figure{
+    text-align:center;
+    font-size:15px;
+    padding:30px;
+    background-color: white;
+    width:80px;
+    height: 100px;
+    
+   
+    
+}*/
+#fig1,  #fig4{
+    
+    width: 60% ;   
+    padding: 50px;
+    background-color: white;
+    margin-bottom: 2px;  
+}
+#fig3{
+    background-color: red;
+    color:white;
+    padding:50px;
+   
+    width: 60%;
+    
+   /* padding:15px;
+   width:80px;
+   height: 100px;*/
+}
+.icons img{
+    padding: 10px;
+    margin-left: 30px;
+    width:25%;
+}
+.icons figcaption{
+    margin-left: 30px;
+}
+   
+   
+.offer1{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+}
+.services{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size:32px;
+line-height: 50px;
+}
+/*#fig1{
+    background-color: white;
+   padding:15px;
+   width:80px;
+   height: 100px;
+}*/
+
+.service{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    justify-content: flex-end;
+}
+.arrow{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    min-height: 100vh;
+    background-color: lightgray;
+    overflow-x: hidden;
+    margin-top: 60px;
+
+    
+}
+.image1{
+    
+    background: url('https://i.postimg.cc/k5VVfsnf/Image-1.png') no-repeat;
+    height: 500px;
+    width: 50%;
+    
+    
+}
+.image2 img{
+  
+  height: 500px;
+max-width: 10%;
+    
+}
+.image-1 img{
+    max-width:300%;
+    height: 500px;
+}
+.image3{
+    position:absolute;
+    height:auto;
+    width:50%;
+    text-align: center;
+    position: absolute;
+    
+    padding: 6px;
+    float: top;
+    margin-top:-82px;
+   margin-left: -60px;
+   
+}
+.touch{
+    color:white;
+    position:absolute;
+    text-align: center;
+    margin-left: 220px;
+    width:30%;
+    background-color:orangered;
+    
+   height:72vh;
+    margin-top: -2px;
+    margin-bottom:500%;
+    font-family: 'Manrope';
+font-style:normal;
+font-weight: 10;
+font-size: 60px;
+/*line-height: 80%;*/
+display: inline-block;
+justify-content: center;
+align-items: center;
+letter-spacing: 0.002cm;
+padding:60px;
+
+
+}
+.fg{
+    background-color: lightgray;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+.arrow1{
+    display: flex;
+    justify-content: center;
+}
+
+.arrow3{
+    margin-left: 30px;
+    transform: rotate(-180deg);
+    background-color: black;
+    margin-bottom: 20px;
+    border-radius: 70px;
+    
+   
+}
+.arrow2{
+    margin-top: 5px;
+    background-color: white;
+   border-radius: 50px;
+   height: 20px;
+}
+.arrow3 img{
+    filter:grayscale(1) invert(1);
+
+}
+#figure{
+    display: flex;
+    flex-direction: row;
+
+   
+    justify-content: space-around;
+    text-align:centre;
+    position: absolute;
+    margin-right: 450px;
+    font-family: 'Manrope';
+    margin-left: 100px;
+    background-color: lightgray;
+    
+
+}
+
+#figure figure{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+padding: 5px;
+
+}
+.figcaption{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+}
+.flex-container4{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    min-height: 100vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.brand{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+text-align: center;
+margin-top: 70px;
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+    margin-right: 300px;
+   
+}
+.nice h6{
+    font-size: 40px;
+    font-family: 'manrope';
+    flex-wrap: wrap;
+    text-align: center;
+}
+.flex-container5{
+    display: flex;
+    
+    width:100%;
+    justify-content: space-between;
+}
+.person p{
+    font-size:30px;
+    font-family:'manrope';
+    flex-wrap:wrap;
+    padding-left: 30px;
+
+    
+}
+.person{
+    width:40%;
+    background-color: white;
+
+}
+.person-1{
+    width:40%;
+    background-color: white;
+}
+.person-1 p{
+    font-size:30px;
+    font-family:'manrope';
+    flex-wrap:wrap;
+    padding-left: 30px;
+
+}
+.questionnaire{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.questionnaire1{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.questionnaire2{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.questionnaire3{
+    display: flex;
+    flex-direction: row;
+    
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.questionnaire4{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+
+}
+.questionnaire5{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.frequent p{
+    font-size:40px;
+    font-family: 'manrope';
+    text-align: center;
+    font-weight: bold;
+}
+.schedule p{
+    font-size: 40px;
+    font-family: 'manrope';
+    text-align: center;
+    line-height: 15px;
+    
+    
+    
+}
+.monitorial{
+    padding-left: 30px;
+}
+.questionnaire .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-right: 10px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    
+
+}
+.questionnaire1 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-left: 20px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 100px;
+}
+.questionnaire2 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-left: 20px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 100px;
+
+}
+.questionnaire5 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    
+
+}
+.questionnaire4 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-left: 20px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 100px;
+
+}
+.questionnaire3 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-left: 20px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 100px;
+
+}
+.flex-container6{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+}
+.get p{
+    color: white;
+    font-size: 60px;
+}
+.media-icon img{
+    margin-right: 20px;
+}
+.reach-us p {
+    color:white;
+    background-color: black;
+    font-size:40px;
+}
+.reach-us h4{
+    color:white;
+    font-weight: bolder;
+    font-size: 30px;
+    
+
+}
+.reach-us h6{
+    color:white;
+    font-size: 20px;
+}
+
+@media (max-width:427px){
+  
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .list ul {
+        flex-direction: column;
+        
+        
+    }
+    .service-box{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .service-box .recommendation{
+        width:100%;
+        
+    }
+   
+    .service-box .service-image img{
+        max-width: 200%;
+
+    }
+    .service-box h4{
+        font-size: 20px;
+        font-weight: 300px;
+    }
+    .bg{
+        margin-top:720px;
+        margin-left: 0px;
+    }
+    .serious-services{
+        flex-direction: column;
+
+    }
+    .serious-services .car-services{
+        width: 100%;
+
+    }
+    .service-box .quote-box{
+        width:100%;
+    }
+    .quote{
+        font-size: 15px;
+        
+    }
+    .quote-box{
+        width:100%;
+    }
+    .quote-box form{
+        width:50%;
+    }
+    input [type="text"], input [type="tel"]{
+        width: 250px;
+        margin-left: 0px;
+    }
+    
+    
+    .ratings{
+        margin-left: 90px;
+        margin-top: 1100px;
+    }
+    .list{
+        border: none;
+    }
+    .list ul li{
+        margin-bottom: 20px;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .flex-container .process-box {
+       
+        width:51%;
+        margin-right: 100px;
+    }
+    .flex-container .instruction-box{
+        margin-right: 150px;
+    }
+    .flex-container2 .icons{
+        display:flex;
+
+    }
+    .flex-container3{
+        display: flex;
+        flex-direction: column;
+        padding-top: 1700px;
+    }
+    .flex-container3 .touch{
+        margin-top: 350px;
+        margin-left: 1px;
+        width:57%;
+        font-size: 15px;
+        height: 30vh;
+    }
+    .fg #figure{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-container4{
+        height: 650px;
+    }
+    .flex-container4 .brand{
+        margin-bottom: 300px;
+        line-height: 33px;
+    }
+    .flex-container4 .logo{
+        display: flex;
+        flex-direction: column;
+        transform: rotate(-90deg);
+        margin-bottom: 250px;
+        
+        margin-left: 250px;
+    }
+.flex-container5 {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container5 .person{
+    width:100%;
+    margin-bottom: 20px;
+}
+.flex-container5 .person-1{
+    width:100%;
+
+}
+.schedule p{
+    line-height: 30px;
+    font-size: 20px;
+}
+.minus{
+    margin-bottom: 100px;
+}
+.questionnaire {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire1 {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire2 {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire3 {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire4 {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire5 {
+    width:80%;
+    padding: 20px;
+}
+.flex-container6{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.header1{
+    width:100%;
+    
+}
+.header1 .logo1 img{
+    margin-right: -115px;
+}
+.list1{
+    padding-top: 50px;
+    margin-right: 150px;
+}
+.list1 ul{
+    display: flex;
+    flex-direction: column;
+}
+.list1 ul li{
+    margin-bottom: 20px;
+}
+    
+    
+        
+        
+    
+    a{
+        margin-left:70px;
+        text-decoration: none;
+        font-size: 25px;
+        background-color: none;
+    }
+    .flex-container3 .image-2 img{
+        width:100%;
+        
+    }
+     
+    #figure{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .flex-container4{
+        margin-top: 700px;
+    }
+    
+    .flex-container4 .logo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+        
+    }
+    .flex-container4{
+        background-color: white;
+        width: 100%;
+    }
+}
+    
+
+
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    background-color: blue;
+    color:white;
+    font-size:30px;
+    text-align: center;
+    position: absolute;
+    margin-left: 400px;
+    margin-bottom: 1000px;
+}
+body{
+    background-color: lightgray;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+   justify-content:space-around;
+   
+}
+.header1{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+   justify-content:space-around;
+   background-color: black;
+   color:white;
+
+}
+.logo{
+    text-align: centre;
+    margin-top:25px;
+    width:40%;
+    
+    
+}
+.logo1{
+    text-align: centre;
+    margin-top:25px;
+    width:40%;
+    color: white;
+
+}
+.list{
+    width:30%;
+    
+}
+.list1{
+    width:30%;
+    justify-content: space-around;
+    
+    margin-right: 300px;
+    color:white;
+    background-color: black;
+    
+   
+
+}
+
+.list1 ul li{
+    margin-right: 50px;
+}
+ ul{
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: centre;
+    align-items: centre;
+    padding: 15px;
+   
+}
+ ul li{
+    margin-right:20px;
+}
+.Road-assistance{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    justify-content: center;
+    align-items: center;
+    margin-right:20px;
+    
+
+}
+.call{
+    width:10%;
+    background-color:green;
+    border:3px solid green;
+    border-radius:100px;
+    padding:15px;
+    height:34px;
+    width:34px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.assist{
+    width:20%;
+}
+
+.service-box{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    background-color:white;
+    padding-top:50px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+    
+}
+.service-box h4{
+    font-size:65px;
+    font-weight:bold;
+    font-family:'manrope';
+    
+}
+.service-box h6{
+    font-size: 15px;
+    font-weight:700px;
+    font-family:'manrope';
+    line-height: 5px;
+}
+.service-box p{
+    font-size:10px;
+    color:black;
+}
+.recommendation{
+    width:50%;
+   text-align: center;
+
+}
+.service-image{
+    width:50%;
+    align-items: center;
+   
+}
+.service-image img{
+    height:500px;
+}
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+    border:1px solid white;
+    border-radius: 30px;
+    text-align: center;
+   
+    background-color:white;
+}
+.twenty-four{
+    border:1px solid green;
+    border-radius:70px;
+    width:34px;
+    height:34px;
+    text-align: center;
+    align-items: center;
+    padding:15px;
+    background-color: green;
+    color:white;
+    font-size:20px;
+    
+}
+.quick-service{
+    text-align: center;
+    margin-left: 10px;
+}
+.ratings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    
+    border:1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    padding:15px;
+    height:40px;
+    width:200px;
+    background-color:white;
+   
+    
+}
+.star ul {
+    list-style: none;
+    display:flex;
+
+    
+
+}
+.star ul li{
+    margin-right: 2px;
+}
+
+
+
+.serious-services{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+.car-services{
+    width:40%;
+    
+
+}
+.quote-box{
+    width:40%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.quote-box p{
+    font-size:50px;
+    font-family:'manrope';
+    font-weight: bold;
+}
+.quote{
+    font-size:30px;
+    font-family:'manrope';
+    font-weight: bold;
+    padding:12px;
+    text-align: center;
+    color:white;
+    background-color:orangered;
+    border:1px solid orangered;
+    border-radius: 50px;
+    height:45px;
+    width:20%;
+    position:absolute;
+    
+
+}
+.quote1{
+    font-size:25px;
+    font-family:'manrope';
+    font-weight: bold;
+    padding:12px;
+    text-align: center;
+    color:white;
+    background-color:orangered;
+    border:1px solid orangered;
+    border-radius: 50px;
+    height:40px;
+    width:30%;
+    margin-left: 200px;
+    
+    
+
+}
+ input[type="text"],input[type="tel"]{
+    width:200px;
+    padding:10px;
+    margin-bottom: 1px;
+
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.know{
+    margin-right:15px;
+}
+.quote-box{
+    margin-top: 30px;
+}
+
+.car-services h4{
+    font-size:50px;
+    font-family:'manrope';
+    font-weight: bold;
+}
+.convenient{
+    display:flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.expert{
+    margin-right:25px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.mechanics p{
+    font-size:30px;
+    font-family:'manrope';
+    line-height:20px;
+
+}
+
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    min-height:100vh;
+    box-shadow: inset;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+    
+    
+    
+}
+.flex-container .process-box{
+    width:30%;
+    margin-right:200px;
+    align-items: center;
+    
+    
+    
+}
+.flex-container .instruction-box{
+    width:40%;
+    margin-right:100px;
+    align-items: center;
+    
+    
+}
+.box-2{
+    display:flex;
+    flex-direction: row;
+}
+.ball{
+    margin-top:30px;
+    margin-left: 40px;
+}
+.ball p{
+    transform: rotate(-90deg);
+    margin-top: 60px;
+}
+.relative{
+    color:black;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 50px;
+}
+.relative-2 p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+
+
+}
+.relative-2{
+    margin-left: 10px;
+}
+
+.flex-container2{
+   /* display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    min-height:100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:200px;
+    background-color:lightgray;*/
+    height: 100vh;
+
+}
+.flex-container2{
+    background-color: lightgrey;
+    justify-content: center;
+    width:100%;
+}
+.flex-container2 .offer{
+    width: 100%;
+    
+    text-align: center;
+
+
+} .icons{
+    
+    align-items: center;
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    flex-wrap: wrap;
+    background-color:lightgray;
+    padding-right: 30px;
+    overflow:hidden;
+    /*min-height: 100vh;*/
+
+
+
+}
+
+
+/*.icons figure{
+    text-align:center;
+    font-size:15px;
+    padding:30px;
+    background-color: white;
+    width:80px;
+    height: 100px;
+    
+   
+    
+}*/
+#fig1,  #fig4{
+    
+    width: 60% ;   
+    padding: 50px;
+    background-color: white;
+    margin-bottom: 2px;  
+}
+#fig3{
+    background-color: red;
+    color:white;
+    padding:50px;
+   
+    width: 60%;
+    
+   /* padding:15px;
+   width:80px;
+   height: 100px;*/
+}
+.icons img{
+    padding: 10px;
+    margin-left: 30px;
+    width:25%;
+}
+.icons figcaption{
+    margin-left: 30px;
+}
+   
+   
+.offer1{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+}
+.services{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size:32px;
+line-height: 50px;
+}
+/*#fig1{
+    background-color: white;
+   padding:15px;
+   width:80px;
+   height: 100px;
+}*/
+#service{
+    background-color: lightgray;
+    height: 30%;
+}
+.more-service{
+    margin-left: 850px;
+    margin-top: 300px;
+}
+.arrow img{
+   float:right;
+   margin-left: 500px;
+   margin-bottom: 200px;
+}
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    min-height: 100vh;
+    background-color: lightgray;
+    overflow-x: hidden;
+    margin-top: 50px;
+
+    
+}
+.image1{
+    
+    background: url('https://i.postimg.cc/k5VVfsnf/Image-1.png') no-repeat;
+    height: 500px;
+    width: 50%;
+    
+    
+}
+.image2 img{
+  
+  height: 500px;
+max-width: 10%;
+    
+}
+.image-1 img{
+    max-width:300%;
+    height: 500px;
+}
+.image3{
+    position:absolute;
+    height:auto;
+    width:50%;
+    text-align: center;
+    position: absolute;
+    
+    padding: 6px;
+    float: top;
+    margin-top:-82px;
+   margin-left: -60px;
+   
+}
+.touch{
+    color:white;
+    position:absolute;
+    text-align: center;
+    margin-left: 200px;
+    width:30%;
+    background-color:orangered;
+    
+   height:72vh;
+    margin-top: -2px;
+    margin-bottom:500%;
+    font-family: 'Manrope';
+font-style:normal;
+font-weight: 10;
+font-size: 60px;
+/*line-height: 80%;*/
+display: inline-block;
+justify-content: center;
+align-items: center;
+letter-spacing: 0.002cm;
+padding:60px;
+
+
+}
+.fg{
+    background-color: lightgray;
+    height: 50vh;
+}
+#figure{
+    display:flex;
+    justify-content: center;
+    text-align:centre;
+    position: absolute;
+    margin-right: 450px;
+    font-family: 'Manrope';
+    margin-left: 100px;
+    background-color: lightgray;
+    
+
+}
+
+#figure figure{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+padding: 5px;
+
+}
+.figcaption{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+}
+.flex-container4{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    min-height: 100vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.brand{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+text-align: center;
+margin-top: 70px;
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+    margin-right: 300px;
+   
+}
+.nice h6{
+    font-size: 40px;
+    font-family: 'manrope';
+    flex-wrap: wrap;
+    text-align: center;
+}
+.flex-container5{
+    display: flex;
+    
+    width:100%;
+    justify-content: space-between;
+}
+.person p{
+    font-size:30px;
+    font-family:'manrope';
+    flex-wrap:wrap;
+    padding-left: 30px;
+
+    
+}
+.person{
+    width:40%;
+    background-color: white;
+
+}
+.person-1{
+    width:40%;
+    background-color: white;
+}
+.person-1 p{
+    font-size:30px;
+    font-family:'manrope';
+    flex-wrap:wrap;
+    padding-left: 30px;
+
+}
+.questionnaire{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.questionnaire1{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.questionnaire2{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.questionnaire3{
+    display: flex;
+    flex-direction: row;
+    
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.questionnaire4{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+
+}
+.questionnaire5{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.frequent p{
+    font-size:40px;
+    font-family: 'manrope';
+    text-align: center;
+    font-weight: bold;
+}
+.schedule p{
+    font-size: 40px;
+    font-family: 'manrope';
+    text-align: center;
+    line-height: 15px;
+    
+    
+    
+}
+.monitorial{
+    padding-left: 30px;
+}
+.questionnaire .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-right: 10px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    
+
+}
+.questionnaire1 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-left: 20px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 100px;
+}
+.questionnaire2 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-left: 20px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 100px;
+
+}
+.questionnaire5 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    
+
+}
+.questionnaire4 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-left: 20px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 100px;
+
+}
+.questionnaire3 .minus{
+    border:1px solid orangered;
+    background-color: orangered;
+    width:4%;
+    margin-left: 20px;
+    height: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 100px;
+
+}
+.flex-container6{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+}
+.get p{
+    color: white;
+    font-size: 60px;
+}
+.media-icon img{
+    margin-right: 20px;
+}
+.reach-us p {
+    color:white;
+    background-color: black;
+    font-size:40px;
+}
+.reach-us h4{
+    color:white;
+    font-weight: bolder;
+    font-size: 30px;
+    
+
+}
+.reach-us h6{
+    color:white;
+    font-size: 20px;
+}
+@media (max-width:1441px){
+    html,body{
+    max-width: 100%;
+    margin:0px;
+    overflow-x: hidden;
+    }
+    .list{
+        width:50%;
+    }
+    .service-box{
+        background-color: lightgray;
+    }
+    .service-image img{
+        max-width: 90%;
+        height: 100%;
+    }
+    .icons{
+        width: 100%;
+        position: relative;
+        top:-30px;
+        
+    }
+    .icons figure{
+        max-width: 30%;
+        overflow-x: hidden;
+        padding: 0px;
+        
+    }
+    .flex-container3{
+        min-height: 50vh;
+       
+       
+    }
+    .flex-container3 .touch{
+        height: 73vh;
+    }
+    .fg #figure {
+        max-width: 100%;
+        
+}
+.flex-container4{
+    
+    min-height: 50vh;
+    background-color: lightgrey;
+    
+}
+.flex-container4 .logo img{
+    max-width: 250%;
+}
+.nice h6{
+    
+}
+.flex-container5{
+   
+    justify-content: space-around;
+}
+
+.monitorial{
+    
+    text-align: center;
+    
+}
+.schedule p{
+    line-height: 35px;
+    
+}
+
+}
+    
+
+
+
+@media (max-width:800px){
+    
+    .header .logo{
+       
+        margin: 0px;
+    }
+    .header .list{
+        width:50%;
+    }
+    .service-box{
+        width:100%;
+        background-color: lightgray;
+    }
+    .service-image img{
+        max-width: 100%;
+        height: 100%;
+    }
+    .flex-container{
+        width:100%;
+        
+    }
+    .flex-container .process-box{
+        width:50%;
+        margin: 0px;
+    }
+    .flex-container2 .icons{
+        width:100%;
+    }
+    .icons figure{
+        max-width: 30%;
+        margin: 0px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+    }
+    .flex-container3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .flex-container3 .touch{
+        margin-left: 0px;
+        margin-top: 200px;
+        width:84%;
+        height: 60vh;
+    }
+    .flex-container4{
+        background-color: lightgray;
+    }
+    .flex-container4 .logo{
+        max-width: 100%;
+        position: relative;
+        left:-100px;
+    }
+    .schedule p{
+        line-height: 35px;
+    }
+    .list1 ul li{
+        margin: 0px;
+        position: relative;
+        right: 30px;
+        margin-right: 20px;
+    }
+    
+        
+    
+}
+
+@media (max-width:427px){
+    html,body{
+       max-width: 100rem;
+       margin: auto;
+       overflow-x: hidden;
+
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin:0px;
+        overflow-x: hidden;
+       
+       
+    }
+    
+    
+    .Road-assistance{
+        width:100%;
+        margin:0px;
+        overflow-x: hidden;
+
+        
+    }
+    .logo img{
+        width:100%;
+        margin:0px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    .list{
+        
+        width: 100%;
+        margin: 0px;
+        overflow-x: hidden;
+        
+        
+    }
+    
+    .list ul {
+        flex-direction: column;
+        width:40%;
+        margin: 0px;
+        justify-content: space-around;
+        overflow: auto;
+        overflow-x: hidden;
+        
+    }
+    .service-image{
+        width:100%;
+        overflow: auto;
+        overflow-x: hidden;
+        margin: 0px;
+        overflow-x: hidden;
+        
+    }
+    .service-box{
+        flex-direction: column;
+        justify-content: space-between;
+        margin:0px;
+        overflow: auto;
+        overflow-x: hidden;
+        
+        background-color: lightgray;
+        width: 100%;
+    }
+    .service-box .recommendation{
+        width:100%;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+    .service-box h4{
+        font-size: 25px;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+    .service-box h6{
+        line-height: 15px;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+    .service-box .service-image{
+        width:100%;
+        margin: 0px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    .service-box .service-image img{
+        max-width: 100%;
+        margin: 0px;
+        overflow-x: hidden;
+
+    }
+    
+    
+    .serious-services{
+        flex-direction: column;
+        margin: 0px;
+        overflow-x: hidden;
+        overflow: auto;
+        overflow-x: hidden;
+
+    }
+    .serious-services h4{
+        margin: 0px;
+        overflow-x: hidden;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .serious-services .car-services{
+        width: 80%;
+        margin: 0px;
+        overflow: auto;
+        overflow-x: hidden;
+
+    }
+    .quote-box p{
+        margin: 0px;
+        overflow-x: hidden;
+        font-size: 25px;
+       
+    }
+    .convenient{
+        margin: 0px;
+        overflow-x: hidden;
+        line-height: 25px;
+        width: 100%;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    .service-box .quote-box{
+        margin: 0px;
+        overflow-x: hidden;
+        width:100%;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    .quote{
+        margin: 0px;
+        overflow-x: hidden;
+        font-size: 15px;
+        overflow: auto;
+        overflow-x: hidden;
+        
+    }
+    .quote-box{
+        margin: 0px;
+        overflow-x: hidden;
+        width:100%;
+    }
+    .quote-box form{
+        width:50%;
+    }
+    input [type="text"], input [type="tel"]{
+        width: 250px;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+    
+    
+    
+    
+    
+    .list ul li{
+    margin: 0px;
+    margin-bottom: 20px;
+    }
+    
+    .flex-container{
+        margin: 0px;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        overflow-x: hidden;
+        position: relative;
+        top:40px;
+        
+    }
+    .relative{
+        font-size: 25px;
+        
+    }
+    .flex-container .process-box {
+       
+        width:80%;
+        margin: 0 auto;
+        overflow: auto;
+        overflow-x: hidden;
+        
+    }
+    .flex-container .instruction-box{
+        
+        width:100%;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+   
+    .box-2{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin:0px;
+    }
+    .ball {
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        right:-80px;
+        
+    }
+    
+    .ball p{
+        position: relative;
+        top:-80px;
+        left:-60px;
+    }
+    .relative-2{
+        width:50%;
+    }
+    
+    
+    
+    .box-2 .relative-2 p{
+        font-size: 10px;
+    }
+    .flex-container2{
+        position: relative;
+        top:30px;
+    }
+    .flex-container2 .icons{
+        display:flex;
+        position: relative;
+        right:-50px;
+
+    }
+    .flex-container3{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .flex-container3 .touch{
+       max-height:200px;
+        max-width:65%;
+        margin-left: 0px;
+        overflow-x: hidden;
+        font-size: 40px;
+       
+    }
+    
+    .flex-container4 .logo{
+       transform: rotate(360deg);
+       
+       
+       
+       
+
+    }
+    .logo img{
+        max-width:90%;
+        position: relative;
+        right: -150px;
+       
+    }
+    
+    .flex-container4 .brand{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 35px;
+        font-size: 40px;
+    }
+    .flex-container4{
+        width:100%;
+        background-color: lightgray
+        ;
+        justify-content: center;
+       
+       
+        height: 0px;
+        
+    }
+    .quote{
+        
+        width:120px;
+        height: 20px;
+        border-radius: 30px;
+    }
+    .quote1{
+        position: relative;
+        width:35%;
+        font-size: 15px;
+        height: 20px;
+        right: 100px;
+        
+    }
+
+ .nice {
+     margin:0px;
+     position: relative;
+     top:-150px;
+   
+ }  
+ .nice h6{
+     font-size: 25px;
+ } 
+ .frequent p{
+     font-size: 25px;
+ }
+ 
+   
+    
+    
+.flex-container5 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:-200px;
+}
+.flex-container5 .person{
+    width:100%;
+    margin-bottom: 20px;
+}
+.flex-container5 .person-1{
+    width:100%;
+
+}
+.schedule p{
+    line-height: 30px;
+    font-size: 20px;
+}
+.minus{
+    margin-bottom: 100px;
+}
+.questionnaire {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire1 {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire2 {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire3 {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire4 {
+    width:80%;
+    padding: 20px;
+}
+.questionnaire5 {
+    width:80%;
+    padding: 20px;
+}
+.flex-container6{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.header1{
+    width:100%;
+    
+}
+.logo1{
+    width:100%;
+    
+    position: relative;
+    left: 100px;
+    margin: 0px;
+    bottom:30px;
+    
+}
+
+
+.list1{
+    width: 100%;
+    position: relative;
+    left: 100px;
+}
+    
+        
+        
+    
+   
+}
+
