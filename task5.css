@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: 0px;
+    overflow-x: hidden;
+}
+html,body{
+    max-width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
 }
 a{
     background-color: blue;
@@ -107,7 +114,7 @@ body{
     display:flex;
     width:100%;
     flex-direction: row;
-    background-color:white;
+    background-color: none;
     padding-top:50px;
     justify-content: space-around;
     padding-bottom: 20px;
@@ -138,10 +145,13 @@ body{
 .service-image{
     width:50%;
     align-items: center;
+    overflow: hidden;
    
 }
 .service-image img{
-    height:500px;
+    max-width: 90%;
+    height: 100%;
+    
 }
 .bg{
     display: flex;
@@ -366,6 +376,7 @@ font-size: 32px;
     background-color: lightgrey;
     justify-content: center;
     width:100%;
+   
 }
 .flex-container2 .offer{
     width: 100%;
@@ -468,7 +479,8 @@ line-height: 50px;
     min-height: 100vh;
     background-color: lightgray;
     overflow-x: hidden;
-    margin-top: 60px;
+  position: relative;
+  bottom:-100px;
 
     
 }
@@ -511,7 +523,7 @@ max-width: 10%;
     width:30%;
     background-color:orangered;
     
-   height:72vh;
+   min-height:80vh;
     margin-top: -2px;
     margin-bottom:500%;
     font-family: 'Manrope';
@@ -532,6 +544,8 @@ padding:60px;
     height: 50vh;
     display: flex;
     flex-direction: row;
+    position: relative;
+    bottom: -100px;
 }
 .arrow1{
     display: flex;
@@ -622,25 +636,27 @@ margin-top: 70px;
 }
 .flex-container5{
     display: flex;
-    
     width:100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    overflow: hidden;
+    
+    
 }
 .person p{
     font-size:30px;
     font-family:'manrope';
     flex-wrap:wrap;
-    padding-left: 30px;
+    
 
     
 }
 .person{
-    width:40%;
+    width:50%;
     background-color: white;
 
 }
 .person-1{
-    width:40%;
+    width:50%;
     background-color: white;
 }
 .person-1 p{
@@ -1618,6 +1634,9 @@ padding:60px;
     
 
 }
+.service-box{
+    background-color: lightgray;
+}
 
 #figure figure{
     font-family: 'Manrope';
@@ -1875,77 +1894,69 @@ margin-top: 70px;
     color:white;
     font-size: 20px;
 }
-@media (max-width:1441px){
+@media (max-width:1025px){
     html,body{
-    max-width: 100%;
-    margin:0px;
-    overflow-x: hidden;
-    }
-    .list{
-        width:50%;
-    }
-    .service-box{
-        background-color: lightgray;
-    }
-    .service-image img{
-        max-width: 90%;
-        height: 100%;
-    }
-    .icons{
-        width: 100%;
-        position: relative;
-        top:-30px;
-        
-    }
-    .icons figure{
-        max-width: 30%;
+        max-width: 100rem;
+        margin: auto;
         overflow-x: hidden;
-        padding: 0px;
-        
-    }
-    .flex-container3{
-        min-height: 50vh;
-       
-       
-    }
-    .flex-container3 .touch{
-        height: 73vh;
-    }
-    .fg #figure {
-        max-width: 100%;
-        
-}
-.flex-container4{
-    
-    min-height: 50vh;
-    background-color: lightgrey;
-    
-}
-.flex-container4 .logo img{
-    max-width: 250%;
-}
-.nice h6{
-    
-}
-.flex-container5{
-   
-    justify-content: space-around;
-}
+        }
+        .list{
+            width:40%;
+        }
+        .service-box{
+            width:100%;
+            background-color: lightgray;
+        }
+        .service-image img{
+            max-width: 95%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        .flex-container .process-box{
+            margin-right: 0px;
+        }
+        .flex-container2{
+            width:100%;
+        }
+        .icons figure{
+            max-width:40%;
+            
+            margin: 0px;
+            overflow: hidden;
+        }
+        .flex-container3 .image-2 img{
+            max-width: 200%;
+        }
+        .flex-container3{
+            height: 0px;
+            padding: 0px;
+            margin: 0px;
+            min-height: 100vh;
+        }
+        .flex-container3 .touch{
+            
+            width:50%;
+        }
+        .flex-container5{
+            justify-content: space-around;
+        }
+        .flex-container4{
+            margin-top: 20px;
+        }
+        .person-1{
+            width:40%;
+            overflow-x:hidden
+        }
+        .schedule p{
+            line-height: 35px;
+        }
+        .flex-container4{
+            min-height: 50px;
+            background-color: lightgray;
+        }
 
-.monitorial{
-    
-    text-align: center;
-    
-}
-.schedule p{
-    line-height: 35px;
-    
-}
 
 }
-    
-
-
 
 @media (max-width:800px){
     
@@ -1986,7 +1997,12 @@ margin-top: 70px;
         width: 100%;
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
+        padding: 0px;
         
+    }
+    .fg{
+        margin-top: 100px;
     }
     .flex-container3 .touch{
         margin-left: 0px;
@@ -1994,8 +2010,21 @@ margin-top: 70px;
         width:84%;
         height: 60vh;
     }
+    .fg figure{
+        width: 100%;
+        margin: 0px;
+       min-height: 100px;
+       margin-right: 30px;
+        
+    }
+    .fg{
+       padding: 0px;
+       height: px;
+    }
     .flex-container4{
         background-color: lightgray;
+        margin: 0px;
+        margin-top: 20px;
     }
     .flex-container4 .logo{
         max-width: 100%;
@@ -2248,6 +2277,7 @@ margin-top: 70px;
     .flex-container2{
         position: relative;
         top:30px;
+        min-height: 500vh;
     }
     .flex-container2 .icons{
         display:flex;
@@ -2258,10 +2288,12 @@ margin-top: 70px;
     .flex-container3{
         display: flex;
         flex-direction: column;
+        padding: 0px;
+        min-height: 100vh;
         
     }
     .flex-container3 .touch{
-       max-height:200px;
+       min-height: 40vh;
         max-width:65%;
         margin-left: 0px;
         overflow-x: hidden;
@@ -2277,6 +2309,7 @@ margin-top: 70px;
        
 
     }
+    
     .logo img{
         max-width:90%;
         position: relative;
@@ -2295,9 +2328,14 @@ margin-top: 70px;
         background-color: lightgray
         ;
         justify-content: center;
+        margin-top: 700px;
+        height: 100px;
+        margin-bottom: 80px;
+        
+       
+      
        
        
-        height: 0px;
         
     }
     .quote{
